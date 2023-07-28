@@ -1,0 +1,89 @@
+@media only screen and (min-width: 390px) {
+
+    .btn1 {
+        width: 165px;
+        height: 55px;
+        color: wheat;
+        background-color: #fd6e0a;
+        border-radius: 50px;
+        border: 2px solid #fd6e0a;
+        font-size: 20px;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+    }
+
+    button.btn1:hover {
+        width: 165px;
+        height: 55px;
+        color: #fd6e0a;
+        background-color: rgb(246, 244, 244);
+        border-radius: 50px;
+        border: 2px solid #fd6e0a;
+        font-size: 20px;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+
+    }
+
+
+    .h2 {
+        font-size: 42px;
+        font-weight: 700;
+        margin: 10px 0;
+        color: #15295f;
+    }
+
+    .asad {
+        padding-top: 90px;
+    }
+}
+
+/* resoponsive style */
+@media (max-width:767px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+
+    .navbar-nav {
+        padding-left: 0;
+    }
+}
+
+
+@media (max-width:767px) {
+
+    .d-flex {
+        display: flex;
+        justify-content: start;
+        margin-top: 10px;
+    }
+
+    .Clients {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.5;
+        text-transform: capitalize;
+        color: #15295f;
+    }
+
+    .contact {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:767px) {
+    .letsconnect {
+        font-weight: 700;
+        color: #15295f;
+        font-size: 39px;
+        line-height: 39px;
+        text-transform: capitalize;
+    }
+
+    .Connect {
+        padding-top: 50rem;
+    }
+
+}
