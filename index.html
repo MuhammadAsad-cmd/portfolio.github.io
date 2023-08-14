@@ -16,12 +16,44 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- CSS and Javascript -->
     <link rel="stylesheet" href="Css/responsive.css">
     <link rel="stylesheet" href="Css/style.css">
-    <script src="js/app.js"></script>
+
+    <!-- <style>
+        .navbar-nav .nav-item .nav-link {
+            text-decoration: none;
+            position: relative;
+            transition: 0.3s;
+        }
+
+        .navbar-nav .nav-item .nav-link:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background-color: #fd6e0a;
+            /* Change to your desired color */
+            bottom: -3px;
+            left: 0;
+            transition: width 0.3s ease-in-out;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover:before {
+            width: 100%;
+            left: 0;
+        }
+    </style> -->
+    <style>
+      
+    
+       
+    </style>
+    
+
+
 
 </head>
 
@@ -77,7 +109,7 @@
                     Muhammad Asad
                 </h2>
                 <h5 class="h5">
-                    Mern Stack Developer
+                    <span class="type-effect"></span>
                 </h5>
 
                 <p style="font-size: 18px; color: rgb(130, 130, 130);">
@@ -101,7 +133,6 @@
                 <div>
                     <img src="images/asad-removebg.png" alt="" class="img">
                 </div>
-
             </div>
         </div>
     </div>
@@ -264,7 +295,7 @@
                                                     <p>"Far far away, behind the word mountains, far from the countries
                                                         Vokalia and Consonantia, there
                                                         live the blind texts. "</p>
-                                                    <h5 class="name">Ali Shan - Mern Stack</h5>
+                                                    <h5 class="name">M Asad - Mern Stack</h5>
                                                 </div>
                                             </div>
                                             <div class="carousel-item active carousel-item-start">
@@ -449,7 +480,8 @@
                     <div class="card-body mt-2">
                         <p class="card-text">This is an Icoder website that i develop with HTML,CSS</p><a
                             href="https://github.com/MuhammadAsad-cmd" target="_blank" class="btn  border ">GitHub</a><a
-                            href="https://muhammadasad-cmd.github.io/evssite.github.io/" target="_blank" class="btn btn-primary ms-4">Demo</a>
+                            href="https://muhammadasad-cmd.github.io/evssite.github.io/" target="_blank"
+                            class="btn btn-primary ms-4">Demo</a>
                     </div>
                 </div>
             </div>
@@ -460,7 +492,8 @@
                     <div class="card-body mt-2">
                         <p class="card-text">I develop it with Bootstrap and Javascript</p><a
                             href="https://github.com/MuhammadAsad-cmd" target="_blank" class="btn  border ">GitHub</a><a
-                            href="https://muhammadasad-cmd.github.io/notepade.github.io/"  target="_blank" class="btn btn-primary ms-4">Demo</a>
+                            href="https://muhammadasad-cmd.github.io/notepade.github.io/" target="_blank"
+                            class="btn btn-primary ms-4">Demo</a>
                     </div>
                 </div>
             </div>
@@ -607,12 +640,10 @@
         </div>
     </footer>
     <!-- Footer Section -->
+
     <!-- back to top section -->
     <div id="backToTopBtn">&#8593;</div>
     <!-- end section -->
-
-
-
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -624,10 +655,8 @@
         </script>
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-
-    <script src="js/app.js"></script>
-    <script src="js/index.js"></script>
 
     <script>
         AOS.init();
@@ -635,29 +664,39 @@
 
     <!-- JavaScript code -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            window.onscroll = function () {
-                scrollFunction();
-            };
+  document.addEventListener("DOMContentLoaded", function () {
+    window.onscroll = function () {
+        scrollFunction();
+    };
 
-            function scrollFunction() {
-                if (
-                    document.body.scrollTop > 15 ||
-                    document.documentElement.scrollTop > 15
-                ) {
-                    document.getElementById("backToTopBtn").style.display = "block";
-                } else {
-                    document.getElementById("backToTopBtn").style.display = "none";
-                }
-            }
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 15 ||
+            document.documentElement.scrollTop > 15
+        ) {
+            document.getElementById("backToTopBtn").style.display = "block";
+        } else {
+            document.getElementById("backToTopBtn").style.display = "none";
+        }
+    }
 
-            document.getElementById("backToTopBtn").onclick = function () {
-                document.documentElement.scrollTop = 0;
-            };
+    document.getElementById("backToTopBtn").onclick = function () {
+        // Use scrollIntoView with smooth behavior
+        document.body.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    };
+});
+
+
+        //    Setup and start animation! 
+        let typed = new Typed('.type-effect', {
+            strings: ['<i>Front</i> End Developer', 'Mern Stack Developer.', 'Front End Developer', 'Mern Stack Developer.'],
+            typeSpeed: 100,
         });
     </script>
-    <!-- With this corrected code, the "Back to Top" button should now work as expected. It will appear when the user scrolls
-    down the page and clicking on it will smoothly scroll the page back to the top. -->
+
 </body>
 
 </html>
