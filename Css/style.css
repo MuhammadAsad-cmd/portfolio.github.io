@@ -122,24 +122,25 @@
 
 
   .btn2 {
-      width: 150px;
-      height: 55px;
+      width: 8rem;
+      height: 3rem;
       color: #fd6e0a;
       background-color: rgb(255, 255, 255);
       border-radius: 50px;
       border: 2px solid #fd6e0a;
-      font-size: 22px;
+      font-size: 1.2rem;
       box-sizing: border-box;
+      margin: 0.2rem;;
   }
 
   button.btn2:hover {
-      width: 150px;
-      height: 55px;
+      width: 8rem;
+      height: 3rem;
       color: white !important;
       background-color: #fd6e0a;
       border-radius: 50px;
       border: 2px solid #fd6e0a;
-      font-size: 22px;
+      font-size: 1.2rem;
       box-sizing: border-box;
   }
 
