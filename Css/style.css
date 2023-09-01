@@ -83,6 +83,9 @@
       font-size: 24px;
       padding-right: 3rem;
   }
+  .navbar-nav .nav-link.active {
+    color: #fd6e0a;
+}
 
   .navbar-nav {
       padding-left: 100px;
