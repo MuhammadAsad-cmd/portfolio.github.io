@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" style="color: #fd6e0a;" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link " href="#testominal">Testimonial</a>
@@ -479,13 +479,13 @@
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6  my-4 d-flex justify-content-center hover">
-                <div class="card" style="width: 18rem;"><img class="card-img-top"
-                        src="images/download (2).png" alt="Card image cap">
+                <div class="card" style="width: 18rem;"><img class="card-img-top" src="images/download (2).png"
+                        alt="Card image cap">
                     <div class="card-body mt-2">
-                        <p class="card-text">I develop it using React Js in which we can Add, Delete and Edit Todo list</p><a
-                            href="https://github.com/MuhammadAsad-cmd" target="_blank" class="btn  border ">GitHub</a><a
-                            href="https://muhammadasad-cmd.github.io/ReactTodo/" target="_blank"
-                            class="btn btn-primary ms-4">Demo</a>
+                        <p class="card-text">I develop it using React Js in which we can Add, Delete and Edit Todo list
+                        </p><a href="https://github.com/MuhammadAsad-cmd" target="_blank"
+                            class="btn  border ">GitHub</a><a href="https://muhammadasad-cmd.github.io/ReactTodo/"
+                            target="_blank" class="btn btn-primary ms-4">Demo</a>
                     </div>
                 </div>
             </div>
@@ -641,8 +641,10 @@
     <script>
         AOS.init();
 
-      
+
     </script>
+
+
 
     <!-- JavaScript code -->
     <script>
@@ -676,6 +678,23 @@
         let typed = new Typed('.type-effect', {
             strings: ['<i>Front</i> End Developer', 'Mern Stack Developer.', 'Front End Developer', 'Mern Stack Developer.'],
             typeSpeed: 100,
+        });
+
+
+        // Get all the navigation links
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        // Add a click event listener to each navigation link
+        navLinks.forEach((link) => {
+            link.addEventListener('click', (event) => {
+                // Remove the "active" class from all navigation links
+                navLinks.forEach((navLink) => {
+                    navLink.classList.remove('active');
+                });
+
+                // Add the "active" class to the clicked navigation link
+                event.currentTarget.classList.add('active');
+            });
         });
 
 
