@@ -89,7 +89,7 @@
   }
 
   .asad {
-      padding-top: 14rem;
+      padding-top: 5rem;
   }
 
   .hi {
@@ -123,7 +123,7 @@
 
   .btn2 {
       width: 8rem;
-      height: 3rem;
+      height: 3.5rem;
       color: #fd6e0a;
       background-color: rgb(255, 255, 255);
       border-radius: 50px;
@@ -135,7 +135,7 @@
 
   button.btn2:hover {
       width: 8rem;
-      height: 3rem;
+      height: 3.5rem;
       color: white !important;
       background-color: #fd6e0a;
       border-radius: 50px;
@@ -162,7 +162,7 @@
       background-size: cover;
       border-radius: 50%;
       margin-left: auto;
-      margin-top: 14rem;
+      margin-top: 8rem;
   }
 
   .radius {
@@ -180,15 +180,6 @@
       border-radius: 50%;
       color: #ffffff;
   }
-
-  /* .fonts {
-      width: 90px;
-      height: 90px;
-      background-color: aqua;
-      border-radius: 50%;
-      color: #ffffff;
-      margin: auto;
-  } */
 
   .fa-solid {
       display: flex;
@@ -237,61 +228,6 @@
       font-size: 30px;
       line-height: 1.5;
       text-transform: capitalize;
-  }
-
-  /* Carousel CSS */
-  .hover {
-      border-radius: 12px;
-      padding-top: 20px;
-      transition: all 0.3s;
-  }
-
-  .hover:hover {
-      transform: scale(1.15);
-  }
-
-  .slider-arrow2 {
-      width: 50px;
-      height: 50px;
-      background: #fd6e0a;
-      color: #ffffff;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: all 1s ease-in-out;
-      text-decoration: none;
-      text-align: center;
-      padding-bottom: 40px;
-  }
-
-  .slider-arrow1 {
-      width: 50px;
-      height: 50px;
-      background: #cdcdcd;
-      color: #7f7d7d;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: all 1s ease-in-out;
-      text-decoration: none;
-      text-align: center;
-      padding-bottom: 40px;
-  }
-
-
-  .slider-arrow1:hover {
-      background-color: #fd6e0a;
-      color: #ffffff;
-      transition: all 1s ease-in-out;
-      transform: scale(1.2);
-  }
-
-  .slider-arrow2:hover {
-      color: #ffffff;
-      transition: all 1s ease-in-out;
-      transform: scale(1.2);
   }
 
   .Why {
@@ -564,9 +500,6 @@
       }
   }
 
-
-
-
   /* testimonial section */
   .testimonial-section {
       background: var(--primary-color);
@@ -585,12 +518,11 @@
   .testimonial-section .carousel-item .carousel-caption p {
       font-size: 1.2125rem;
       line-height: 2.06rem;
-      /* padding: 0 11% 0.625rem; */
       color: #555;
   }
 
   .name {
-      color: #FEA116;
+      color: #f59709;
   }
 
   .testimonial-section .carousel-caption img {
@@ -618,20 +550,13 @@
   }
 
   .wrapper {
-      padding-top: 8.25rem;
-      padding-bottom: 8.25rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
   }
 
   /* End of testimonial section */
 
 
-
-  /* Cards */
-  /* .hover:hover {
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  } */
-
-  /* back to top */
   /* back to top */
   #backToTopBtn {
       display: none;
