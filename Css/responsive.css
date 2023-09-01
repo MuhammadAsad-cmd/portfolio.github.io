@@ -1,3 +1,7 @@
+/* @media (max-width:767px) {
+
+} */
+
 /* resoponsive style */
 @media (max-width:767px) {
 
@@ -13,7 +17,7 @@
     .navbar-nav {
         padding-left: 0;
     }
-    
+
     .h2 {
         font-size: 42px;
         font-weight: 700;
@@ -22,8 +26,9 @@
     }
 
     .asad {
-        padding-top: 30px;
+        padding-top: 10px;
     }
+
 
     .hi {
         color: #fd6e0a;
@@ -34,14 +39,39 @@
     }
 
 
-.h5 {
-    color: #15295f;
-    margin-top: -50px;
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 2;
-    text-transform: uppercase;
-}
+    .h5 {
+        color: #15295f;
+        margin-top: -50px;
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 2;
+        text-transform: uppercase;
+    }
+
+    .btn2 {
+        width: 8rem;
+        height: 3.5rem;
+        color: #fd6e0a;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50px;
+        border: 2px solid #fd6e0a;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+        margin: 0.2rem;
+        ;
+    }
+
+    button.btn2:hover {
+        width: 8rem;
+        height: 3.5rem;
+        color: white !important;
+        background-color: #fd6e0a;
+        border-radius: 50px;
+        border: 2px solid #fd6e0a;
+        font-size: 1.2rem;
+        box-sizing: border-box;
+    }
+
 }
 
 
